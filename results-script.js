@@ -2,6 +2,7 @@ const progressCat = document.querySelector("#cat");
 const progressDog = document.querySelector("#dog");
 const progressParrot = document.querySelector("#parrot")
 
+let hoop = document.querySelector('.some_text')
 
 const header = new Headers({
     'Access-Control-Allow-Credentials': true,
