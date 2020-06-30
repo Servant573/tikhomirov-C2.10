@@ -20,7 +20,7 @@ let giveLink = function(){
 
     let link = document.createElement('a');
     link.getAttribute = "href";
-    link.href = "#";
+    link.href = "https://servant573.github.io/tikhomirov-C2.10/results.html";
     link.innerHTML = "Узнать результаты голосования";
     document.querySelector("main").append(link);  
 }
